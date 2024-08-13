@@ -1,0 +1,21 @@
+name: deploy to s3
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - name: checkout-code
+          uses: actions/checkout@v2
+        - name: configure aws account
+          uses: aws-actions/configure-aws-credentials@v1
+          with:
+            aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
+            aws-secret-key-id: ${{secrets.AWS_ACCESS_KEY_SECRET_ID}}
+            aws-region: eu-north-1
+        - name: Sync S3 Bucket
+          run: aws s3 sync.s3://skyblues --delete
+
+    
