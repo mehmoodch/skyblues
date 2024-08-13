@@ -16,6 +16,6 @@ jobs:
             aws-secret-access-key: ${{ secrets.AWS_ACCESS_KEY_SECRET_ID }}
             aws-region: eu-north-1
         - name: Sync S3 Bucket
-          run: aws s3 sync.s3://skyblues --delete
+          run: aws s3 sync s3://skyblues --delete
 
     
