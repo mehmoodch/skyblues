@@ -12,8 +12,8 @@ jobs:
         - name: configure aws account
           uses: aws-actions/configure-aws-credentials@v1
           with:
-            aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
-            aws-secret-key-id: ${{secrets.AWS_ACCESS_KEY_SECRET_ID}}
+            aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+            aws-secret-access-key: ${{ secrets.AWS_ACCESS_KEY_SECRET_ID }}
             aws-region: eu-north-1
         - name: Sync S3 Bucket
           run: aws s3 sync.s3://skyblues --delete
