@@ -12,7 +12,7 @@
                         concept through completion and handover to
                         after sale maintenance and support.</p>
 
-                    <ul class="ps-0" style="display: flex;flex-direction: row; margin-top: 1rem;">
+                    <!-- <ul class="ps-0" style="display: flex;flex-direction: row; margin-top: 1rem;">
                         <li class="d-block">
                             <a href="#"
                                 target="_blank">
@@ -108,7 +108,7 @@
                                 </svg>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 </div>
                 <!-- ##col -->
                 <!-- #col -->
@@ -132,7 +132,7 @@
                     <div>
                         <ul>
                             <li class="mb-3 d-flex gap-5"><a href="tel:+971 111111111"><img
-                                        src="layout/image/phone.svg" width="12" alt="" />+971 11111111</a></li>
+                                        src="layout/image/phone.svg" width="12" alt="" />+971 43373565</a></li>
                             <li class="mb-3 d-flex gap-5 mail-foot"><a href="mailto:info@skyblue.ae"><img
                                         src="layout/image/email.svg" width="12" alt="" /> info@skyblue.ae</a></li>
                             <li>
