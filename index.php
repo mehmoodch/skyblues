@@ -61,19 +61,19 @@
                             <div class="item h-100 d-flex w-100 relative  overflow-hidden lg_video">
                                                                 
                                 <video class="w-100 h-100 object-fit full-el img c_mobile" playsinline="true" muted loop
-                                    autoplay src="assets/home_video/home.mp4">
+                                    autoplay src="assets/home_video/Studio-1.mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 <div class="video-background">
                                     <div class="video-foreground">
                                         
-                                    <iframe src="https://www.youtube.com/embed/TYQS7HjIQ4U?si=M0MQhVTJcwwl00co?autoplay=1&amp;mute=1&amp;playsinline=1&amp;loop=1&amp;controls=0&amp;disablekb=1&amp;hd=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 
-                                        <!-- <iframe class="c_web"
-                                            src="https://www.youtube.com/embed/t-rdu9y7x70?autoplay=1&amp;mute=1&amp;playsinline=1&amp;loop=1&amp;playlist=t-rdu9y7x70&amp;controls=0&amp;disablekb=1&amp;hd=1"
+                                        <iframe class="c_web"
+                                            src="https://www.youtube.com/embed/jujvIBfuVOA?autoplay=1&amp;mute=1&amp;playsinline=1&amp;loop=1&amp;playlist=jujvIBfuVOA&amp;controls=0&amp;disablekb=1&amp;hd=1"
                                             frameborder="0"
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen=""></iframe> -->
+                                            allowfullscreen=""></iframe>
+
 
 
                                         
