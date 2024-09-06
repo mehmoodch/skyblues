@@ -10,4 +10,4 @@ secret.txt
 *.tmp
 
 # Ignore files in a specific directory
-/assets/home_video/
+#/assets/home_video/
