@@ -1,0 +1,13 @@
+# Ignore specific files
+secret.txt
+*.log
+
+# Ignore specific directories
+/temp/
+/logs/
+
+# Ignore all files with a specific extension
+*.tmp
+
+# Ignore files in a specific directory
+/assets/home_video/
