@@ -61,7 +61,7 @@
                             <div class="item h-100 d-flex w-100 relative  overflow-hidden lg_video">
                                                                 
                                 <video class="w-100 h-100 object-fit full-el img c_mobile" playsinline="true" muted loop
-                                    autoplay src="assets/home_video/Studio.mp4">
+                                    autoplay src="assets/home_video/Studio-1.mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 <div class="video-background">
@@ -74,9 +74,6 @@
                                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                             allowfullscreen=""></iframe>
 
-
-
-                                        
                                     </div>
                                 </div>
                                 <div class="container h-100 z-2">
