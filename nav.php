@@ -52,8 +52,8 @@
                 <!-- end links -->
                 <a class="d-flex logo relative flex-column gap-15 gap-5-p align-center"
                     href="index.php">
-                    <img class="origin" src="layout/image/logo-1.png" alt="" width="170" height="auto">
-                    <img class="red-logo-head" src="layout/image/logo-1.png" alt="" width="170" >
+                    <img class="origin" src="layout/image/logo.svg" alt="" width="170" height="auto">
+                    <img class="red-logo-head" src="layout/image/logo.svg" alt="" width="170" >
                 </a>
                 <!-- links -->
                 <div class="do-only">
