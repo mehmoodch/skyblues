@@ -12,7 +12,9 @@
             display: grid;
             align-items: end;
         }
-
+        .color-filter {
+                    filter: sepia(1) hue-rotate(180deg) saturate(2); /* Example of color manipulation */
+                    }
         @media(max-width: 767px) {
             .c_a_link {
                 display: unset !important;
@@ -159,58 +161,67 @@
 
 
     <!-- #expolre -->
-    <section class="expolore-section relative pt-70 pb-100 pb-70-p overflow-hidden">
+    <section class="expolore-section relative pt-70 pb-100 pb-70-p overflow-hidden" style="background-color:#E69C16;" >
         <div class="container"><!-- #box -->
             <div class="box d-flex space-between flex-column-p gap-30-p"><!-- #left -->
                 <div class="left w-30 w-100-p">
                     <p class="section-title-28 with-line-2" data-aos="fade-right" data-aos-delay="0"
-                        data-aos-duration="1000">Explore, Connect and Engage with Us</p>
+                        data-aos-duration="1000">Connect, Explore, Plan and Execute with Us</p>
                 </div>
                 <!-- ##left --> <!-- #right -->
                 <div class="right w-65 w-100-p d-flex gap-25 space-between flex-column-p"><!-- #item -->
-                    <a class="c_a_link" href="#">
-                        <div class="item d-flex flex-column align-center justify-center" data-aos="fade-left"
-                            data-aos-delay="100" data-aos-duration="1000"><img class="mb-15"
-                                src="layout/image/ex-1.png" width="77">
-
-                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">try our 3D tour</p>
-                            <p class="dd font-11 center f-400" style="color:#505050;">Take our virtual tour in apartments
-                            </p>
-
-                        </div>
-                    </a>
-                    <!-- ##item --> <!-- #item -->
-                    
-                    <!-- ##item --> <!-- #item -->
-                    
-                    <!-- ##item --> <!-- #item -->
-                    <a class="c_a_link" href="#" target="_blank">
-                        <div class="item d-flex flex-column align-center justify-center" data-aos="fade-left"
-                            data-aos-delay="100" data-aos-duration="1000"><img class="mb-15"
-                                src="layout/image/ex-2.svg" width="77">
-
-                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">book a viewing</p>
-                            <p class="dd font-11 center f-400" style="color:#505050;">Schedule a visit to our show
-                                apartment
-                            </p>
-                        </div>
-                    </a>
-
-                    <a class="c_a_link" href="#" target="_blank">
-                        <div class="item d-flex flex-column align-center justify-center pointer" data-aos="fade-left"
-                            data-aos-delay="300" data-aos-offset="300" data-aos-duration="1000">
-                            <img class="mb-15" src="layout/image/ex-3.svg" width="77">
-                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">sales video call</p>
-                            <p class="dd font-11 center f-400" style=" color:#505050 !important;">Talk to one of our sales expert</p>
-                        </div>
-                    </a>
+                                   
                     <span class="c_a_link">
 
                         <div class="item d-flex flex-column align-center justify-center pointer"
                             open-modal="book-view-modal-3" data-aos="fade-left" data-aos-delay="400"
                             data-aos-offset="300" data-aos-duration="1000">
-                            <img class="mb-15" src="layout/image/ex-4.svg" width="77">
-                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Register Your Interest
+                            <img class="mb-15" src="layout/image-process/discussion.webp" width="77">
+                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Connect
+                            </p>
+                            <p class="dd font-11 center f-400">Register your interest in our properties</p>
+                        </div>
+                    </span>
+                    <span class="c_a_link">
+
+                        <div class="item d-flex flex-column align-center justify-center pointer"
+                            open-modal="book-view-modal-3" data-aos="fade-left" data-aos-delay="400"
+                            data-aos-offset="300" data-aos-duration="1000">
+                            <img class="mb-15" src="layout/image-process/planing.webp" width="77">
+                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Planning
+                            </p>
+                            <p class="dd font-11 center f-400">Register your interest in our properties</p>
+                        </div>
+                    </span>
+                    <span class="c_a_link">
+
+                        <div class="item d-flex flex-column align-center justify-center pointer"
+                            open-modal="book-view-modal-3" data-aos="fade-left" data-aos-delay="400"
+                            data-aos-offset="300" data-aos-duration="1000">
+                            <img class="mb-15" src="layout/image-process/Designing-icon.webp" width="77">
+                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Designing
+                            </p>
+                            <p class="dd font-11 center f-400">Register your interest in our properties</p>
+                        </div>
+                    </span>
+                    <span class="c_a_link">
+
+                        <div class="item d-flex flex-column align-center justify-center pointer"
+                            open-modal="book-view-modal-3" data-aos="fade-left" data-aos-delay="400"
+                            data-aos-offset="300" data-aos-duration="1000">
+                            <img class="mb-15" src="layout/image-process/execution-icon.webp" width="77">
+                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Execution
+                            </p>
+                            <p class="dd font-11 center f-400">Register your interest in our properties</p>
+                        </div>
+                    </span>
+                    <span class="c_a_link">
+
+                        <div class="item d-flex flex-column align-center justify-center pointer"
+                            open-modal="book-view-modal-3" data-aos="fade-left" data-aos-delay="400"
+                            data-aos-offset="300" data-aos-duration="1000">
+                            <img class="mb-15" src="layout/image-process/completion.webp" width="77">
+                            <p class="tt font-2 font-16 black uppercase no-wrap f-400 mb-10 center">Completion
                             </p>
                             <p class="dd font-11 center f-400">Register your interest in our properties</p>
                         </div>
@@ -244,10 +255,8 @@
                                     <!-- #item -->
                                         <a href="#"
                         class="item hover-scale hover-overlay-fig item-with-arrow relative">
-                        <figure class="relative overflow-hidden d-flex fig">
-                                                            <img alt="" class="object-fit img"
-                                    src="uploads/property/main_image/15/Cam%201-06.jpg" />
-                                                    </figure>
+                        <figure class="relative overflow-hidden d-flex fig"> <img alt="" class="object-fit img" src="uploads/property/main_image/15/Cam%201-06.jpg" />
+                        </figure>
 
                         <!-- #cntnt -->
                         <div class="cntnt full-el h-100 d-flex align-end pb-25 p-side-25 z-2">
