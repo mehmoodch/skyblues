@@ -44,6 +44,7 @@ jobs:
             port: ${{ secrets.REMOTE_PORT }}
             passphrase: ${{ secrets.KEY_PASSPHRASE }}
             
+            
             script: |
               cd ${{ secrets.REMOTE_PATH }}
               git pull ${{secrets.REPO_URL}}
