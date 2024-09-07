@@ -2088,7 +2088,7 @@
                         class="pointer left-step-modal-close white mo fa-solid fa-xmark font-20 font-24-p"></i>
                     <!-- #logo -->
                     <figure class="flex-all pb-80 pb-20-p">
-                        <img src="layout/image/logo-1.png" width="145" alt="" />
+                        <img src="layout/image/logo.svg" width="145" alt="" />
                     </figure>
                     <!-- ##logo -->
                     <div class="w-85 m-side-auto w-100-p  left-iner p-side-10-p">
@@ -2522,7 +2522,7 @@
                         class="pointer left-step-modal-close white mo fa-solid fa-xmark font-20 font-24-p"></i>
                     <!-- #logo -->
                     <figure class="flex-all pb-80 pb-20-p">
-                        <img src="layout/image/logo-1.png" width="145" alt="" />
+                        <img src="layout/image/logo.svg" width="145" alt="" />
                     </figure>
                     <!-- ##logo -->
                     <div class="w-85 m-side-auto w-100-p  left-iner p-side-10-p">
