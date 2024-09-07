@@ -5,7 +5,7 @@
                 <!-- #col -->
                 <div class="foot-col col-1 w-26 w-100-p mb-20-p">
                     <a href="#" class="d-flex foot-logo mb-15">
-                        <img src="layout/image/logo-1.png" width="145" alt="" />
+                        <img src="layout/image/logo11.webp" width="145" alt="" />
                     </a>
                     <p class="font-14 gray-2 line-22 justify">skyblue Developments delivers a total solution
                         to all kinds of Real Estate projects, from initial

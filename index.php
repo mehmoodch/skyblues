@@ -161,7 +161,7 @@
 
 
     <!-- #expolre -->
-    <section class="expolore-section relative pt-70 pb-100 pb-70-p overflow-hidden" style="background-color:#E69C16;" >
+    <section class="expolore-section relative pt-70 pb-100 pb-70-p overflow-hidden bg-main"  >
         <div class="container"><!-- #box -->
             <div class="box d-flex space-between flex-column-p gap-30-p"><!-- #left -->
                 <div class="left w-30 w-100-p">
