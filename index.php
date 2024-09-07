@@ -348,10 +348,8 @@
                                     <!-- #item -->
                                         <a href="#"
                         class="item hover-scale hover-overlay-fig item-with-arrow relative">
-                        <figure class="relative overflow-hidden d-flex fig">
-                                                            <img alt="" class="object-fit img"
-                                    src="uploads/property/7/pearl_house_II_main.png" />
-                                                    </figure>
+                        <figure class="relative overflow-hidden d-flex fig"> <img alt="" class="object-fit img" src="uploads/property/main_image/12/1.jpg" />
+                        </figure>
 
                         <!-- #cntnt -->
                         <div class="cntnt full-el h-100 d-flex align-end pb-25 p-side-25 z-2">
