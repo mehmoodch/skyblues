@@ -62,7 +62,7 @@
                             <!-- #item -->
                             <div class="item h-100 d-flex w-100 relative  overflow-hidden lg_video">
                                                                 
-                                <video class="w-100 h-100 object-fit full-el img c_mobile" playsinline="true" muted loop autoplay src="assets/home_video/Studio-1.mp4">
+                                <video class="w-100 h-100 object-fit full-el img c_mobile" playsinline="true" muted loop autoplay src="assets/home_video/home-slide.mp4">
                                     Your browser does not support the video tag.
                                 </video>
                                 <div class="video-background">
@@ -237,13 +237,13 @@
 
 
 
-    <!-- #prop -->
+    <!-- #property section -->
     <section class="prop-section pb-100 pb-70-p" data-aos="fade-up" data-aos-delay="0" data-aos-duration="1000">
         <div class="container full-p">
             <!-- #head -->
             <div class="head container-p mb-30 d-flex space-between align-center flex-column-p">
-                <p class="section-title-28 with-line-2">Latest Properties</p>
-                <a href="#" class="btn-normal btn-190">see all properties</a>
+                <p class="section-title-28 with-line-2">Latest Projects</p>
+                <a href="#" class="btn-normal btn-190">see all projects</a>
             </div>
             <!-- ##head -->
 
