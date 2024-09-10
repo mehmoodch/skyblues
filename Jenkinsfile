@@ -18,18 +18,22 @@ pipeline {
 
         stage('Install AWS CLI') {
             steps {
-                // Install AWS CLI if not already installed
-                sh 'curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"'
-                sh 'unzip awscliv2.zip'
-                sh './aws/install'
+                // Install AWS CLI on Windows
+                bat '''
+                @echo off
+                if not exist "%ProgramFiles%\Amazon\AWSCLIV2\aws.exe" (
+                    curl -o "%TEMP%\\AWSCLIV2.msi" https://awscli.amazonaws.com/AWSCLIV2.msi
+                    msiexec /i "%TEMP%\\AWSCLIV2.msi" /qn
+                )
+                '''
             }
         }
 
         stage('Deploy to S3') {
             steps {
                 // Deploy the code to S3
-                sh '''
-                aws s3 sync . s3://$S3_BUCKET_NAME --region $AWS_REGION --delete
+                bat '''
+                aws s3 sync . s3://%S3_BUCKET_NAME% --delete
                 '''
             }
         }
