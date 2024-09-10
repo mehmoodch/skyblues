@@ -4,7 +4,7 @@ pipeline {
     environment {
         AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')  // Store this in Jenkins Credentials
         AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')  // Store this in Jenkins Credentials
-        S3_BUCKET_NAME = 'skyblues'
+        S3_BUCKET_NAME = 'skybluedeveloper.com'
         AWS_REGION = 'eu-north-1' // Specify your AWS region
     }
 
