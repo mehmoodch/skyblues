@@ -21,9 +21,9 @@ pipeline {
                 // Install AWS CLI on Windows
                 bat '''
                 @echo off
-                if not exist "%ProgramFiles%\Amazon\AWSCLIV2\aws.exe" (
-                    curl -o "%TEMP%\\AWSCLIV2.msi" https://awscli.amazonaws.com/AWSCLIV2.msi
-                    msiexec /i "%TEMP%\\AWSCLIV2.msi" /qn
+                if not exist "%ProgramFiles%\\Amazon\\AWSCLIV2\\aws.exe" (
+                    curl -o "%TEMP%\\\\AWSCLIV2.msi" https://awscli.amazonaws.com/AWSCLIV2.msi
+                    msiexec /i "%TEMP%\\\\AWSCLIV2.msi" /qn
                 )
                 '''
             }
