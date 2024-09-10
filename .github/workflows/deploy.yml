@@ -1,12 +1,12 @@
 name: Sky Blue Deployment
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+#on:
+ # push:
+  #  branches:
+   #   - main
+  #pull_request:
+   # branches:
+    #  - main
 
 jobs:
   build:
@@ -24,8 +24,8 @@ jobs:
     
 
   deploy:
-    runs-on: ubuntu-latest
-    needs: build
+   # runs-on: ubuntu-latest
+    #needs: build
 
     steps:
       - name: Checkout repository
