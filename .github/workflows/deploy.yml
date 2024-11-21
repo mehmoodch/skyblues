@@ -1,50 +1,40 @@
-# name: Sky Blue Deployment
+name: Sky Blue Deployment
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 
-# on:
-#  push:
-#     branches:
-#       - main
-#   pull_request:
-#     branches:
-#       - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: 8.0.2
 
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v2
-
-#       - name: Set up PHP
-#         uses: shivammathur/setup-php@v2
-#         with:
-#           php-version: '8.0.2'
-
-    
-
-#   deploy:
-#    # runs-on: ubuntu-latest
-#     #needs: build
-
-#     steps:
-#       - name: Checkout repository
-#         uses: actions/checkout@v2
-
-#       - name: Set up PHP
-#         uses: shivammathur/setup-php@v2
-#         with:
-#           php-version: '8.0.2'      
-#       - name: executing remote ssh commands using ssh key
-#         uses: appleboy/ssh-action@v1.0.3
-#         with:
-#             host: ${{ secrets.REMOTE_HOST }}
-#             username: ${{ secrets.REMOTE_USER }}
-#             key: ${{ secrets.SSH_PRIVATE_KEY }}
-#             port: ${{ secrets.REMOTE_PORT }}
-#             passphrase: ${{ secrets.KEY_PASSPHRASE }}
-            
-            
-#             script: |
-#               cd ${{ secrets.REMOTE_PATH }}
-#               git pull ${{secrets.REPO_URL}}
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Execute remote SSH commands
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.REMOTE_HOST }}
+          username: ${{ secrets.REMOTE_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.REMOTE_PORT }}
+          passphrase: ${{ secrets.KEY_PASSPHRASE }}
+          script: |
+            cd ${{ secrets.REMOTE_PATH }}
+            if [ ! -d .git ]; then
+              git clone ${{ secrets.REPO_URL }} .
+            else
+              git pull origin main
+            fi
