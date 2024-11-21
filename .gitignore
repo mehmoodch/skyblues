@@ -11,3 +11,4 @@ secret.txt
 
 # Ignore files in a specific directory
 #/assets/home_video/
+*.git
