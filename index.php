@@ -136,7 +136,7 @@
                         <!-- #slide -->
                         <div class="swiper-slide">
                             <div class="slide-item relative  d-flex overflow-hidden">
-                                <img alt="" class="object-fit img" src="uploads/property/feature_image/15/reem1.png" width="100%" opecity="0.7" />
+                                <img alt="" class="object-fit img" src="uploads/property/feature_image/15/reem1.webp" width="100%" opecity="0.7" />
                             </div>
                         </div>
                         <!-- #slide -->
