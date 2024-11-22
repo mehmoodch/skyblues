@@ -52,8 +52,8 @@
                 <!-- end links -->
                 <a class="d-flex logo relative flex-column gap-15 gap-5-p align-center"
                     href="index.php">
-                    <img class="origin" src="layout/image/logo11.webp" alt="" width="170" height="auto">
-                    <img class="red-logo-head" src="layout/image/logo11.webp" alt="" width="170" >
+                    <img class="origin" src="layout/image/logoheader.png" alt="" width="120" height="auto">
+                    <img class="red-logo-head" src="layout/image/logoheader.png" alt="" width="120" >
                 </a>
                 <!-- links -->
                 <div class="do-only">
@@ -61,9 +61,10 @@
                         <!-- #desktop menu -->
                         <ul class="header-menu d-flex">
 
-                            <li><a href="#">Contact us</a></li>
-                            
-                            <li class="pay_now_li"><a class="pay_now" href="#"> page</a>
+                            <li><a href="#">Destinations</a></li>
+                            <li><a href="#">Latest Launches</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li class="pay_now_li"><a class="pay_now" href="#"> Contact us</a>
                             </li>
                             
                             <!-- 

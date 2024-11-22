@@ -7,7 +7,7 @@
                     <a href="#" class="d-flex foot-logo mb-15">
                         <img src="layout/image/logo11.webp" width="145" alt="" />
                     </a>
-                    <p class="font-14 gray-2 line-22 justify">skyblue Developments delivers a total solution
+                    <p class="font-14 gray-2 line-22 justify">Skyblues Development delivers a total solution
                         to all kinds of Real Estate projects, from initial
                         concept through completion and handover to
                         after sale maintenance and support.</p>
@@ -116,7 +116,7 @@
                     <p class="foot-title -bold white font-16 uppercase mb-5">Quick Links</p>
                     <div>
                         <ul>
-                            <li><a href="#">About skyblue developments</a></li>
+                            <li><a href="#">About Skyblues Developer</a></li>
                             <li><a href="#">FAQ</a></li>
                             <li><a href="#">blogs</a></li>
                             <li><a href="#">properties</a></li>
@@ -132,12 +132,12 @@
                     <div>
                         <ul>
                             <li class="mb-3 d-flex gap-5"><a href="tel:+971 111111111"><img
-                                        src="layout/image/phone.svg" width="12" alt="" />+971 43373565</a></li>
+                                        src="layout/image/phone.svg" width="12" alt="" />(+971) 45587491</a></li>
                             <li class="mb-3 d-flex gap-5 mail-foot"><a href="mailto:info@skyblue.ae"><img
-                                        src="layout/image/email.svg" width="12" alt="" /> info@skyblue.ae</a></li>
+                                        src="layout/image/email.svg" width="12" alt="" /> info@skybluesdeveloper.ae</a></li>
                             <li>
                                 <p class="d-flex gap-5 line-22"><img class="top-2 align-self"
-                                        src="layout/image/location.svg" width="12" alt="" /> The Village Community <br /></br.>Dubai, UAE</a>
+                                        src="layout/image/location.svg" width="12" alt="" /> Office# 706, Regal Tower, Business Bay, <br /></br.>Dubai, UAE</a>
                             </li>
 
                         </ul>
@@ -146,7 +146,7 @@
                 <!-- ##col -->
                 <!-- #col -->
                 <div class="foot-col col-4 ">
-                    <p class="foot-title -bold white font-16 uppercase mb-15">subscribe to newsletter</p>
+                    <p class="foot-title -bold white font-16 uppercase mb-15">Subscribe to newsletter</p>
                     <!-- #subscribe -->
                     <div class="subscribe-box">
                         <!-- #form -->
@@ -192,7 +192,7 @@
         </div>
         <!-- #copyrights -->
         <div class="copyrights white center">
-            <p>Copyright © 2024 skyblue</p>
+            <p>Copyright © 2024 skybluesdeveloper.ae</p>
         </div>
         <!-- ##copyrights -->
     </footer>

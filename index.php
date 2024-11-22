@@ -133,18 +133,79 @@
         <div class="property-slider overflow-hidden">
             <!-- #wrapper -->
             <div class="swiper-wrapper">
-                                                                                <!-- #slide -->
+                        <!-- #slide -->
                         <div class="swiper-slide">
                             <div class="slide-item relative  d-flex overflow-hidden">
-                                <img alt="" class="object-fit img" src="uploads/property/feature_image/15/beach-walk.jpeg" width="100%" />
+                                <img alt="" class="object-fit img" src="uploads/property/feature_image/15/reem1.png" width="100%" opecity="0.7" />
                             </div>
                         </div>
                         <!-- #slide -->
-                                                </div>
+            </div>
             <!-- ##wrapper -->
         </div>
         <!-- ##slider -->
+        <div class="box full-el white pb-80 pb-20-p relative">
+            <div class="container h-100 relative">
+                <div class="h-100 container-inner d-flex align-end relative">
+                    <div class="first trans d-flex flex-column justify-end h-100">
+                        <p class="sub uppercase mb-5">Featured property</p>
+                        <p class="title font-2 f-300 font-32 uppercase line_1-5">REEM ONE</p>
+                    </div>
+                    <div class="second trans d-flex flex-column justify-end">
+                        <p class="mm sub2 font-12 uppercase mb-10">Featured property</p>
+                        <p class="mm title2 font-2 f-300 font-24 uppercase mb-10 two-line">REEM ONE</p>
+                        <p class="mm desc2 font-12 mb-15 line_1-5 three-line">Imagine waking up to the gentle sound of waves, with sun-kissed sands just a stroll away. This is everyday life at REEM ONE, a coveted address in the Dubai Islands by Skyblues Developer. With only 300 residences, REEM ONE offers cozy studios, spacious 1-bedroom, and expansive 2-bedroom options. Nestled in Dubai heart of Majan City, you'll be moments from the center with easy access to the Majan city's landmarks.</p>
+                        <div class="grid-5 inner-box mb-30 gap-0 grid-3-t">
+                            
+                            <!-- #item -->
+                                    <div class="item center">
+                                        <figure class="flex-all mb-5">
+                            <img alt="" src="uploads/feature/1/f-11.svg" height="20" />
+                                        </figure>
+                                        <p class="item-tt uppercase font-9 center">FULLY FURNISHED</p>
+                                    </div>
+                                    <!-- ##item -->
+                                    <!-- #item -->
+                                    <div class="item center">
+                                        <figure class="flex-all mb-5">
+                                    <img alt="" src="uploads/feature/2/f-22.svg" height="20" />
+                                        </figure>
+                                        <p class="item-tt uppercase font-9 center">DUBAI LAND </p>
+                                    </div>
+                                    <!-- ##item -->
+                                    <!-- #item -->
+                                    <div class="item center">
+                                        <figure class="flex-all mb-5"> 
+                                            <img alt="" src="uploads/feature/3/f-33.svg" height="20" />
+                                        </figure>
+                                        <p class="item-tt uppercase font-9 center">DIRECT ACCESS  TO PARK</p>
+                                    </div>
+                                    <!-- ##item -->
+                                    <!-- #item -->
+                                    <div class="item center">
+                                        <figure class="flex-all mb-5">
+                                    <img alt="" src="uploads/feature/4/f-44.svg" height="20" />
+                                        </figure>
+                                        <p class="item-tt uppercase font-9 center">DRINKING SPARKLING WATER</p>
+                                    </div>
+                                    <!-- ##item -->
+                                    <!-- #item -->
+                                    <div class="item center">
+                                        <figure class="flex-all mb-5"> <img alt="" src="uploads/feature/5/f-55.svg" height="20" />
+                                        </figure>
+                                        <p class="item-tt uppercase font-9 center">20 MIN FROM  Burj Khalifa</p>
+                                    </div>
+                                    <!-- ##item -->
+                                                                                    </div>
+                        <div class="mm d-flex">
+                            <a href="#" class="btn-normal btn-132">read
+                                more</a>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
         
     </section>
     <!-- ##property -->
