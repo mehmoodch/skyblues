@@ -1,4 +1,4 @@
-name: Sky Blue Deployment
+name: Sky Blues Developer Deployment
 on:
   push:
     branches:
