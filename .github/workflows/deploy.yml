@@ -1,40 +1,29 @@
-name: Sky Blues Developer Deployment
+name: Deploy Static Website
+
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - main  # Change to your default branch if needed
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Set up PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: 8.0.2
-
   deploy:
+    name: Deploy to Shared Hosting
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Execute remote SSH commands
-        uses: appleboy/ssh-action@v0.1.10
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Upload via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.1
         with:
-          host: ${{ secrets.REMOTE_HOST }}
-          username: ${{ secrets.REMOTE_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.REMOTE_PORT }}
-          passphrase: ${{ secrets.KEY_PASSPHRASE }}
-          script: |
-            cd ${{ secrets.REMOTE_PATH }}
-            if [ ! -d .git ]; then
-              git clone ${{ secrets.REPO_URL }} .
-            else
-              git pull origin main
-            fi
+          server: ${{ secrets.FTP_SERVER }}   # Your hosting FTP server (e.g., ftp.example.com)
+          username: ${{ secrets.FTP_USERNAME }}  # Your FTP username
+          password: ${{ secrets.FTP_PASSWORD }}  # Your FTP password
+          local-dir: ./  # Folder containing static site files (default repo root)
+          server-dir: /public_html/  # Path on the server where files should be uploaded
+          exclude: |
+            **/.git*
+            **/.github*
+            **/README.md
+            **/node_modules
